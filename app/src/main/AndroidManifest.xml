@@ -18,10 +18,12 @@
             android:exported="true" />
         <activity
             android:name=".ChartActivity"
-            android:exported="true" />
+            android:exported="true"
+            android:label="@string/MyGraph"/>
         <activity
             android:name=".SelectDateActivity"
-            android:exported="true" />
+            android:exported="true"
+            android:label="@string/selectDate"/>
         <activity
             android:name=".MainActivity"
             android:exported="true"

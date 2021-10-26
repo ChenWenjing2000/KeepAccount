@@ -34,6 +34,8 @@
     <string name="note">Note(140 characters Max)</string>
     <string name="no_money_tip">Please input the amount</string>
     <string name="no_tag_tip">Please select the tag</string>
+    <string name="MyGraph">My Graph</string>
+    <string name="selectDate">Select Date</string>
 
 
 </resources>

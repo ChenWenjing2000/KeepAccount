@@ -164,11 +164,10 @@ public class UserFragment extends Fragment implements View.OnClickListener {
                 intent = new Intent(getActivity(), MedalActivity.class);
                 startActivity(intent);
                 break;
-//            case R.id.graph_title:
-//                intent = new Intent(getContext(), SelectDateActivity.class);
-//                intent.putExtra("current_date", selectDateStr);
-//                startActivity(intent);
-//                break;
+            case R.id.graph_title:
+                intent = new Intent(getContext(), ChartActivity.class);
+                startActivity(intent);
+                break;
 
         }
     }
